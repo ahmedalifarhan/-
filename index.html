@@ -28,7 +28,21 @@
       <button onclick="searchBloodType()">🔍 Search</button>
     </div>
 
-    <div id="result"></div>
+    <div id="result">
+      <table>
+        <thead>
+          <tr>
+            <th>Phone</th>
+            <th>WhatsApp</th>
+            <th>Type</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody id="result-body">
+          <!-- Rows will be added here dynamically with JavaScript -->
+        </tbody>
+      </table>
+    </div>
     <a class="addType" href="register.html">➕ Add New Blood Type</a>
 
     <!-- Added "Developed by" section -->
