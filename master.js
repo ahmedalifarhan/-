@@ -24,7 +24,7 @@ function searchBloodType() {
           // Create a new row for each person
           const row = document.createElement("tr");
           row.innerHTML = `
-          <td class="phone"><a href="tel:${person.phone}">${person.phone}</a></td>
+          <td class="phone">📞<a href="tel:${person.phone}">${person.phone}</a></td>
           <td class="whatsapp"><a href="https://wa.me/${internationalPhone}" target="_blank"><i class="fab fa-whatsapp"></i></a></td>
           <td class="type">🩸 ${person.bloodType}</td>
           <td class="name">👤 ${person.name}</td>
