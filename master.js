@@ -23,12 +23,12 @@ function searchBloodType() {
 
           resultDiv.innerHTML += `
     <div class="result-item">
-        <span class="name">👤 ${person.name}</span>
-        <span class="bloodType">🩸 ${person.bloodType}</span>
-        <a href="tel:${person.phone}" class="phone">📞 ${person.phone}</a>
-        <a href="https://wa.me/${internationalPhone}" target="_blank" class="whatsapp">
-            <i class="fab fa-whatsapp"></i>
-        </a>
+    <a href="tel:${person.phone}" class="phone">📞 ${person.phone}</a>
+    <a href="https://wa.me/${internationalPhone}" target="_blank" class="whatsapp">
+    <i class="fab fa-whatsapp"></i>
+    </a>
+    <span class="name">👤 ${person.name}</span>
+    <span class="bloodType">🩸 ${person.bloodType}</span>
     </div>
 `;
         });
