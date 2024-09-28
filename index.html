@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Blood Types</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="master.css" />
+  </head>
+  <body>
+    <h1>🔎 Search for Matching Blood Types 🩸</h1>
+    <div class="form-container">
+      <label for="bloodType">Select Blood Type:</label>
+      <select id="bloodType">
+        <option value="">--Select Blood Type--</option>
+        <option value="O+">O+ 🟢</option>
+        <option value="O-">O- 🔴</option>
+        <option value="A+">A+ 🟢</option>
+        <option value="A-">A- 🔴</option>
+        <option value="B+">B+ 🟢</option>
+        <option value="B-">B- 🔴</option>
+        <option value="AB+">AB+ 🟢</option>
+        <option value="AB-">AB- 🔴</option>
+      </select>
+      <button onclick="searchBloodType()">🔍 Search</button>
+    </div>
+
+    <div id="result"></div>
+    <a class="addType" href="register.html">➕ Add New Blood Type</a>
+
+    <!-- Added "Developed by" section -->
+    <footer>
+      <p>Developed by <strong>Eng Ahmed Ali</strong></p>
+      <!-- WhatsApp contact link -->
+      <a href="https://wa.me/+201155529025" class="whatsapp-link">
+        <i class="fab fa-whatsapp"></i> Contact via WhatsApp
+      </a>
+    </footer>
+
+    <script src="master.js"></script>
+  </body>
+</html>

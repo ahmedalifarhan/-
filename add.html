@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تسجيل فصيلة دم جديدة</title>
+    <link rel="stylesheet" href="add.css  " />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>أضف فصيلة دم جديدة</h1>
+      <form id="addBloodTypeForm">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" required />
+
+        <label for="newBloodType">فصيلة الدم:</label>
+        <select id="newBloodType" required>
+          <option value="">اختر فصيلة الدم</option>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="AB+">AB+</option>
+          <option value="AB-">AB-</option>
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+        </select>
+
+        <label for="phone">رقم الهاتف:</label>
+        <input type="tel" id="phone" required />
+
+        <button type="submit">إضافة فصيلة الدم</button>
+      </form>
+
+      <div id="addResult"></div>
+    </div>
+
+    <script src="register.js"></script>
+    <!-- ربط ملف JS -->
+  </body>
+</html>
