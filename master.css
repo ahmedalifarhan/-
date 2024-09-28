@@ -174,3 +174,6 @@ td {
     padding: 8px; /* Smaller padding for mobile */
   }
 }
+a {
+  text-decoration: none;
+}
