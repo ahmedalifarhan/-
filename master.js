@@ -27,8 +27,8 @@ function searchBloodType() {
     <a href="https://wa.me/${internationalPhone}" target="_blank" class="whatsapp">
     <i class="fab fa-whatsapp"></i>
     </a>
-    <span class="name">👤 ${person.name}</span>
     <span class="bloodType">🩸 ${person.bloodType}</span>
+    <span class="name">👤 ${person.name}</span>
     </div>
 `;
         });
